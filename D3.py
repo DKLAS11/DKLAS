@@ -1,0 +1,12 @@
+name = input("enter your name: ")
+age = input("enter your age: ")
+print(f"welcome, {name}")
+print(f"You are {age} years old! ")
+
+j = input(f"Do you want to know details about your age?")
+print(f"-----you have livd for more {int(age) * 12} months!")
+print(f"-----you have livd for more than {int(age) * 52} weeks!")
+print(f"-----You have lived for more than {int(age) * 365} days!")
+print(f"-----you have lived more than {int(age) * 8760 } hours!")
+print(f"-----you have breathed more than {int(age) * 7500000 } breaths!")
+(f"-----you have eaten more than {int(age) * 365 * 3} meals!")
